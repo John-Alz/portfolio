@@ -1,0 +1,156 @@
+.home_main {
+  background-color: #f8f8f8;
+  /* display: flex; */
+}
+
+.home {
+  /* margin-top: 150px;
+  margin-left: 120px; */
+  padding: 60px 0 90px 120px;
+  text-align: left;
+  background-color: #f8f8f8;
+  display: flex;
+  /* background-color: blue; */
+}
+
+.img {
+  width: 200px;
+  padding: 40px 0 0 0;
+  /* background-color: red; */
+}
+
+.img img {
+  width: 150%;
+  /* margin-left: 200px; */
+  padding: 0 0 0 200px;
+  /* background-color: orange; */
+}
+
+.down {
+  padding: 150px 0 0 420px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  font-weight: bold;
+  /* width: 100%; */
+}
+
+.iconrotate {
+  transform: rotate(90deg);
+  margin-top: 70px;
+  margin-right: 5px;
+}
+
+.text_me h1 {
+  font-size: 50px;
+  margin-top: 90px;
+  /* background-color: green; */
+}
+
+.text_me p {
+  font-size: 30px;
+  /* background-color: yellow; */
+}
+
+.redes_main {
+  display: flex;
+}
+
+.redes {
+  /* background-color: red; */
+  padding: 0px 0 0 110px;
+}
+
+.redes a {
+  text-decoration: none;
+  color: #212121;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.correo {
+  /* background-color: blue; */
+  padding: 0px 0 0 785px;
+}
+
+.correo a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .home {
+    /* margin-top: 150px;
+    margin-left: 120px; */
+
+    padding: 0px 0 0px 0px;
+    text-align: center;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+  }
+
+  .img {
+    width: 200px;
+  }
+
+  .img img {
+    width: 150%;
+    padding: 0 0 0 90px;
+  }
+
+  .down {
+    padding: 0px 0 0 290px;
+    display: none;
+  }
+
+  .rotate {
+    transform: rotate(90deg);
+    font-weight: bold;
+    /* width: 100%; */
+  }
+
+  .iconrotate {
+    transform: rotate(90deg);
+    margin-top: 70px;
+    margin-right: 5px;
+  }
+
+  .text_me h1 {
+    font-size: 50px;
+  }
+
+  .text_me p {
+    font-size: 30px;
+  }
+
+  .redes_main {
+    display: flex;
+    /* flex-direction: row; */
+  }
+
+  .redes {
+    /* background-color: red; */
+    padding: 70px 0 0 30px;
+  }
+  .redes a {
+    text-decoration: none;
+    color: #212121;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .correo {
+    /* background-color: blue; */
+    padding: 70px 0 0 80px;
+  }
+
+  .correo a {
+    text-decoration: none;
+    color: black;
+  }
+}

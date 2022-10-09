@@ -1,0 +1,72 @@
+.softskills {
+  /* margin-top: 200px; */
+  /* margin-left: 120px; */
+  text-align: left;
+  background-color: #f8f8f8;
+  /* background-color: orange; */
+  height: 350px;
+}
+
+.tittle {
+  font-weight: bold;
+  padding: 50px 0 0 120px;
+}
+
+.habili {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 60px;
+  font-weight: bold;
+  padding: 50px 0 50px 120px;
+  background-color: #f8f8f8;
+  /* background-color: blue; */
+}
+
+.rotate {
+  position: absolute;
+  margin-left: 1255px;
+  margin-top: 40px;
+  transform: rotate(90deg);
+  font-weight: bold;
+}
+
+.iconrotate {
+  position: absolute;
+  margin-left: 1287px;
+  margin-top: 110px;
+  transform: rotate(90deg);
+}
+
+@media (max-width: 600px) {
+  .softskills {
+    /* margin-top: 200px; */
+    /* margin-left: 120px; */
+    text-align: left;
+    background-color: #f8f8f8;
+    /* background-color: orange; */
+    height: 400px;
+  }
+
+  .tittle {
+    font-weight: bold;
+    padding: 130px 0 0 50px;
+  }
+
+  .habili {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+    font-weight: bold;
+    padding: 50px 0 50px 50px;
+    background-color: #f8f8f8;
+    /* background-color: blue; */
+  }
+
+  .rotate {
+    display: none;
+  }
+
+  .iconrotate {
+    display: none;
+  }
+}
