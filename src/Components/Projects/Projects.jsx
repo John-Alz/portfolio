@@ -36,8 +36,8 @@ export default function Projects() {
                     <div className={styles.text}>
                     <h2 data-aos="zoom-in-up">Wiki-dogs</h2>
                     <p data-aos="zoom-in-up">Aplicaion creada con React y redux en la parte del front <br />
-                    y en la parte de back creda con postgresql, node y express <br />
-                    Primer aplicacion fullstack</p>
+                    y en la parte de back creda con postgresql, node y express. <br />
+                    Se trata de un SPA en el cual puedes ordenar, buscar <br /> y crear nuevas razas de perros.</p>
                     <div className={styles.view} data-aos="zoom-in-up">
                     <a href="https://github.com/John-Alz/DOGS" target='_blank'><SiGithub/></a>
                     <a href="https://app-dogs-zeta.vercel.app/" target='_blank'><SiGooglechrome/></a>
@@ -53,7 +53,7 @@ export default function Projects() {
                     <h2 data-aos="zoom-in-up">E-commerce RGBtech</h2>
                     <p data-aos="zoom-in-up">Aplicaion para RGBtech una tienda online de productos tecnologicos <br />
                     desarrolloada con un equipo de trabajo usnado la metodologia SCRUM<br />
-                    Se desarrollo usando JavaScript, React, Redux toolkit, Tailwindcss, Node y SQL</p>
+                    Se desarrollo usando JavaScript, React, Redux toolkit, Tailwindcss, Node y SQL.</p>
                     <div className={styles.view} data-aos="zoom-in-up">
                     <a href="https://github.com/RGBTech-PF/rgbtech" target='_blank'><SiGithub/></a>
                     <a href="https://rgbtech.vercel.app/" target='_blank'><SiGooglechrome/></a>

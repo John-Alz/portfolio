@@ -15,7 +15,7 @@ export default function Home() {
         <div className={styles.home} id='home'>
           <div className={styles.text_me}>
           <h1>I'm John Angel Alvarez</h1>
-          <p>Front-end developer and student</p>
+          <p>Front-end developer</p>
           </div>
           <div className={styles.img}>
             <img src={img} alt="" />

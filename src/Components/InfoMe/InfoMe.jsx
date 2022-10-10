@@ -23,7 +23,7 @@ export default function InfoMe() {
             </div>
         <div className={styles.parrafo}>
             <p data-aos="zoom-in-up">Hola a todos!, soy John Angel. <br />
-            Soy un desarrollador web con inclinación hacia el desarrollo FrontEnd y el diseño de aplicaciones web. <br />
+            Soy un desarrollador web Full Stack con inclinación hacia el desarrollo FrontEnd y el diseño de aplicaciones web. <br />
             Siempre dispuesto a trabajar en equipo y con gran interés en estar en constante aprendizaje, <br /> recientemente he estado trabajado en algunos proyectos, los cuales puedes encontrar en el apartado de "proyectos". <br />
             Me apasiona el software y los nuevos desafíos ¿Quieres saber más de mí?  Contáctame.</p>
             
