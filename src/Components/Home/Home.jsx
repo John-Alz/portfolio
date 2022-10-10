@@ -34,8 +34,8 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/john-angel-993992246/" target='_blank'><SiLinkedin/></a>
             <a href="https://github.com/John-Alz" target='_blank'><SiGithub/></a>
             <a href="https://api.whatsapp.com/send?phone=573144048308" target='_blank'><SiWhatsapp/></a>
-            <a href=""><SiTwitter/></a>
-            <a href=""><ImProfile/></a>
+            {/* <a href=""><SiTwitter/></a> */}
+            {/* <a href=""><ImProfile/></a> */}
         </div>
         <div className={styles.correo}>
             <a href='' target='_blank'>jairoanngelll@gmail.com</a>

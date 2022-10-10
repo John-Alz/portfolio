@@ -46,7 +46,7 @@ export default function Contact() {
                 <h1>Contactame.</h1>
             </div>
             <div className={styles.section_p}>
-                <p data-aos="zoom-in-up">Siempre estoy abierto a discutir tu proyecto <br />
+                <p data-aos="zoom-in-up">Siempre estoy abierto a discutir sobre <br /> tu propuesta
                  y hablar sobre cosas nuevas.</p>
             </div>
             <div className={styles.contact_main}>
